@@ -1,0 +1,35 @@
+.experienceBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 3rem;
+}
+
+.bar {
+    /* Ocupa o maior espaço disponível */
+    flex: 1;
+    height: 5px;
+    border-radius: 10px;
+    margin: 0 1.5rem;
+
+    background-color: var(--gray-line);
+    position: relative;
+}
+
+.bar > .progress {
+    height: 5px;
+    border-radius: 10px;
+
+    width: 50%;
+    background-color: var(--blue);
+
+    transition: 1s;
+}
+
+.currentExperience {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+

@@ -1,0 +1,28 @@
+[
+    {
+        "type": "body",
+        "description": "Estique um de seus braços com a palma da mão virada para frente e puxe os dedos para cima por 10s",
+        "amount": 80
+    },
+    {
+        "type": "body",
+        "description": "Sentado, cruze uma perna e incline seu tronco à frente, troque de perna após 10 segundos",
+        "amount": 50
+    },
+    {
+        "type": "body",
+        "description": "Cruze as pernas e desça com as mãos esticadas em direção ao chão. Repita o movimento 5 vezes",
+        "amount": 100
+    },
+    {
+        "type": "eye",
+        "description": "Feche seus olhos e coloque a mão na frente. Fique assim por 1min",
+        "amount": 70
+    },
+    {
+        "type": "eye",
+        "description": "Olhe para cima, baixo, esquerda e direita, cada um por 3s, o mais longe que puder",
+        "amount": 60
+    }
+    
+]

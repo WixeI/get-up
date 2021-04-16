@@ -1,0 +1,26 @@
+.container {
+    /* Faz um tamanho finito com margem lateral automática */
+    height: 100vh;
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container section {
+    /* Flex ocupa todo o espaço disponível, ao invés de só o espaço de seus componentes */
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
+    align-content: center;
+}
+
+/* @media (max-width: 1400px) {
+    .container {
+        zoom: 0.9;
+    }
+} */

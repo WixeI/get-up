@@ -1,0 +1,18 @@
+.challengesCompletedContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid var(--text);
+
+    margin: 0 0 2rem;
+}
+
+.challengesCompletedContainer span {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.challengesCompletedContainer p {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
